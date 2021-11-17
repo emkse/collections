@@ -7,4 +7,26 @@ def addAndDisplayLists(listOne, listTwo):
     for i in range(len(listOne)):
         print(listOne[i], "+", listTwo[i], "=", listOne[i] + listTwo[i])
 addAndDisplayLists(listOne, listTwo)
-        
+
+def substractAndDisplayLists(listOne, listTwo):
+    print('--------------')
+    print('Substract list')
+    for i in range(len(listOne)):
+        print(listOne[i], "-", listTwo[i], "=", listOne[i] - listTwo[i])
+substractAndDisplayLists(listOne, listTwo)
+
+def multiplyAndDisplayLists(listOne, listTwo):
+    print('-------------')
+    print('Multiply list')
+    for i in range(len(listOne)):
+        print(listOne[i], "*", listTwo[i], "=", listOne[i] * listTwo[i])
+multiplyAndDisplayLists(listOne, listTwo)
+
+def divideAndDisplayLists(listOne, listTwo):
+    print('-------------')
+    print('Divide list')
+    for i in range(len(listOne)):
+        print(listOne[i], "/", listTwo[i], "=", listOne[i] / listTwo[i])
+divideAndDisplayLists(listOne, listTwo)
+    
+            
