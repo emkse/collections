@@ -12,6 +12,12 @@ blauw = 0
 groen = 0
 bruin = 0
 
+mnmDictionaryBag = {
+    "rood": 2,
+    "geel": 5,
+    "bruin":  10
+}
+
 def MMzakje(Aantal):
     global oranje
     global blauw
@@ -33,3 +39,4 @@ def MMzakje(Aantal):
     time.sleep(2)
     print(" oranje", str(oranje), "\n blauw", str(blauw), "\n groen: ", str(groen), "\n bruin", str(bruin))
 MMzakje(hvlMM)
+
