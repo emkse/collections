@@ -1,4 +1,5 @@
 import random
+
 print("M&M: Hoeveel wilt u in de zak doen? ")
 amountMnM = int(input("IK: "))
 color = ["oranje", "blauw", "groen", "bruin"]
